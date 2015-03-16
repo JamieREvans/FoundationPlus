@@ -6,13 +6,13 @@
 //  Copyright (c) 2014 Jamie Evans. All rights reserved.
 //
 
-#import "JEViewController.h"
+#import "FPViewController.h"
 
-@interface JEViewController ()
+@interface FPViewController ()
 
 @end
 
-@implementation JEViewController
+@implementation FPViewController
 
 - (void)viewDidLoad
 {

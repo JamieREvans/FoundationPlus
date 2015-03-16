@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface JEViewController : UIViewController
+@interface FPViewController : UIViewController
 
 @end

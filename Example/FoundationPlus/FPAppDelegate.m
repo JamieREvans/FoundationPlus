@@ -6,9 +6,9 @@
 //  Copyright (c) 2014 Jamie Evans. All rights reserved.
 //
 
-#import "JEAppDelegate.h"
+#import "FPAppDelegate.h"
 
-@implementation JEAppDelegate
+@implementation FPAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
