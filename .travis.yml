@@ -2,10 +2,10 @@ language: objective-c
 cache: cocoapods
 podfile: Example/Podfile
 before_install:
-- gem install cocoapods
+- gem install cocoapods --no-rdoc --no-ri --no-document
 - pod install --project-directory=Example
 install:
 - gem install xcpretty --no-rdoc --no-ri --no-document --quiet
 script:
-- set -o pipefail && xcodebuild test -workspace Example/FoundationPlus.xcworkspace -scheme FoundationPlus-Example -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO | xcpretty -c
+- set -o pipefail && xcodebuild test -workspace Example/FoundationPlus.xcworkspace -scheme FoundationPlus-Example -sdk iphonesimulator8.0 ONLY_ACTIVE_ARCH=NO | xcpretty -c
 - pod lib lint --quick
