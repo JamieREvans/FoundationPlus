@@ -315,4 +315,20 @@ static int paddingLevel = 0;
     free(properties);
 }
 
+- (instancetype)returnAfterSettingValue:(id)value forSelector:(SEL)selector
+{
+    @try
+    {
+        [self setValue:value forKey:NSStringFromSelector(selector)];
+    }
+    @catch(NSException *exception)
+    {
+        NSLog(@"Failed to set %@ on %@", NSStringFromSelector(selector), NSStringFromClass([self class]));
+    }
+    @finally
+    {
+        return self;
+    }
+}
+
 @end
