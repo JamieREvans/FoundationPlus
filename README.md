@@ -1,6 +1,6 @@
 # FoundationPlus
 
-[![CI Status](http://img.shields.io/travis/JamieREvans/FoundationPlus.svg?style=flat)](https://travis-ci.org/Jamie Evans/FoundationPlus)
+[![CI Status](http://img.shields.io/travis/JamieREvans/FoundationPlus.svg?style=flat)](https://travis-ci.org/JamieREvans/FoundationPlus)
 [![Version](https://img.shields.io/cocoapods/v/FoundationPlus.svg?style=flat)](http://cocoadocs.org/docsets/FoundationPlus)
 [![License](https://img.shields.io/cocoapods/l/FoundationPlus.svg?style=flat)](http://cocoadocs.org/docsets/FoundationPlus)
 [![Platform](https://img.shields.io/cocoapods/p/FoundationPlus.svg?style=flat)](http://cocoadocs.org/docsets/FoundationPlus)
