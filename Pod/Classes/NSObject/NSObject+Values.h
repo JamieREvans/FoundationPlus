@@ -30,4 +30,9 @@
 - (void)copyValuesFromObject:(NSObject *)object;
 - (void)copyValuesFromObject:(NSObject *)object includingNil:(BOOL)setsNil;
 
+// For primitives, wrap in NSNumber or NSValue
+// The selector should be the getter method for properties
+// Only use this for properties
+- (instancetype)returnAfterSettingValue:(id)value forSelector:(SEL)selector;
+
 @end

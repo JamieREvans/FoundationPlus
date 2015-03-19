@@ -1,6 +1,6 @@
 # FoundationPlus
 
-[![CI Status](http://img.shields.io/travis/Jamie Evans/FoundationPlus.svg?style=flat)](https://travis-ci.org/Jamie Evans/FoundationPlus)
+[![CI Status](http://img.shields.io/travis/JamieREvans/FoundationPlus.svg?style=flat)](https://travis-ci.org/Jamie Evans/FoundationPlus)
 [![Version](https://img.shields.io/cocoapods/v/FoundationPlus.svg?style=flat)](http://cocoadocs.org/docsets/FoundationPlus)
 [![License](https://img.shields.io/cocoapods/l/FoundationPlus.svg?style=flat)](http://cocoadocs.org/docsets/FoundationPlus)
 [![Platform](https://img.shields.io/cocoapods/p/FoundationPlus.svg?style=flat)](http://cocoadocs.org/docsets/FoundationPlus)
@@ -20,7 +20,7 @@ it, simply add the following line to your Podfile:
 
 ## Author
 
-Jamie Evans, jevans@kineticcafe.com
+Jamie Evans, jamie.riley.evans@gmail.com
 
 ## License
 
