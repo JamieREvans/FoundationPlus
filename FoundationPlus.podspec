@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "FoundationPlus"
-  s.version          = "0.1.0"
+  s.version          = "1.0.1"
   s.summary          = "The missing Foundation methods"
   s.homepage         = "https://github.com/JamieREvans/FoundationPlus"
   s.license          = 'MIT'

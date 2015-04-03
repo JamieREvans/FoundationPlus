@@ -24,6 +24,7 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		7D14D9431AB7856B00AE7421 /* ArrayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D14D9421AB7856B00AE7421 /* ArrayTests.m */; };
+		7DB2C36C1ACD9CC40072E27D /* NSObject+ValueTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7DB2C36B1ACD9CC40072E27D /* NSObject+ValueTests.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		74AAFAC29F198BA418ABB6C7 /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		7D14D9421AB7856B00AE7421 /* ArrayTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrayTests.m; sourceTree = "<group>"; };
+		7DB2C36B1ACD9CC40072E27D /* NSObject+ValueTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "NSObject+ValueTests.mm"; sourceTree = "<group>"; };
 		B94D7501B364551DB74C5C39 /* FoundationPlus.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FoundationPlus.podspec; path = ../FoundationPlus.podspec; sourceTree = "<group>"; };
 		CC76BAD8E40EA4C1AF9E59CC /* libPods-FoundationPlus.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FoundationPlus.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8DEDD2A9AFEDE713B6B4FB5 /* Pods-FoundationPlus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoundationPlus.release.xcconfig"; path = "Pods/Target Support Files/Pods-FoundationPlus/Pods-FoundationPlus.release.xcconfig"; sourceTree = "<group>"; };
@@ -160,6 +162,7 @@
 			children = (
 				6003F5B6195388D20070C39A /* Supporting Files */,
 				7D14D9421AB7856B00AE7421 /* ArrayTests.m */,
+				7DB2C36B1ACD9CC40072E27D /* NSObject+ValueTests.mm */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -372,6 +375,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D14D9431AB7856B00AE7421 /* ArrayTests.m in Sources */,
+				7DB2C36C1ACD9CC40072E27D /* NSObject+ValueTests.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
