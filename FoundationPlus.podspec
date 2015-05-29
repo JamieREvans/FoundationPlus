@@ -12,7 +12,4 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.source_files     = 'Pod/Classes/*.{h,m}', 'Pod/Classes/**/*.{h,m}'
-  s.resource_bundles = {
-    'FoundationPlus' => ['Pod/Assets/*.png']
-  }
 end
